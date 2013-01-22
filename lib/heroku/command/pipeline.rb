@@ -3,6 +3,7 @@ require 'heroku/command/base'
 require 'heroku/api/config_vars'
 require 'rest_client'
 require 'net/http'
+require 'json'
 
 # Continuous delivery pipeline actions
 #
