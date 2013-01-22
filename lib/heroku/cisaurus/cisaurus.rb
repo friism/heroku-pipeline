@@ -1,4 +1,9 @@
-require "json"
+begin
+  require "json"
+rescue LoadError
+  puts "\n"
+  abort "'json' gem is missing. Please install json: gem install json"
+end
 
 class Cisaurus
 
